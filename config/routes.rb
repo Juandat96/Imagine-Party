@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   get 'pages/about'
 
   get 'pages/contact'
-  
+
+  get 'pages/fiesta'
+
 
   resources :posts do
     resources :comments
